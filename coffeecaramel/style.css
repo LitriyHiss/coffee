@@ -100,12 +100,6 @@
     transition: .5s;
 }
 
-.pricol__punks :hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: .5s;
-}
-
 .punk{
     background-color: white;
     border: #1E1E1E;
