@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caramel{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(227,108,4,1) 65%, rgba(255,255,255,1) 100%);
+}
+
+@font-face {
+    font-family: 'heinzlabel';
+    src: url(./fonts/Heinz_Label.ttf);
+  }
+
+
+.main{
+    position: relative;
+    padding-top: 12rem;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+    padding-bottom: 24rem;
+}
+  
+.main__title{
+    z-index: 2;
+    font-family: 'heinzlabel';
+    color: white;
+    font-size: 6rem;
+}
+
+.main__text{
+    font-size: 2rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.main__titletext{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 56.25rem;
+}
+
+.main__button{
+    z-index: 2;
+    border: none;
+    background-color: transparent;
+    color: #D26023;
+    font-size: 2.5rem;
+    font-family: 'heinzlabel';
+    margin-top: 3rem;
+    background-color: white;
+    padding: 1.5rem 5rem 1rem 5rem;
+    border-radius: 32px;
+    transition: 0.5s;
+}
+.main__button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.coffee{
+    z-index: 0;
+    position: absolute;
+    bottom: 4rem;
+    right: 12rem;
+}
+
+.caramelka{
+    z-index: 1;
+    position: absolute;
+    bottom: 4rem;
+    right: 48rem;
+}
+
+.pricol{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 16rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-bottom: 16rem;
+}
+
+.pricol__punks{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: .5s;
+}
+
+.pricol__punks :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.punk{
+    background-color: white;
+    border: #1E1E1E;
+    border-style: solid;
+    border-width: 0px 4px 4px 4px;
+    border-radius: 0 0 32px 32px;
+    padding: 1rem;
+    text-transform: lowercase;
+    color: #1E1E1E;
+    text-align: center;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: .5s;
+}
+
+.light{
+    border: #D26023;
+    border-style: solid;
+    border-width: 0px 4px 4px 4px;
+    border-radius: 0 0 32px 32px;
+    color: #D26023;
+}
+
+.pricol button{
+    margin-left: 22rem;
+    margin-right: 22rem;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'heinzlabel';
+    margin-top: 3rem;
+    background-color: #D26023;
+    padding: 1.5rem 10rem 1rem 10rem;
+    border-radius: 32px;
+    transition: 0.5s;
+}
+.pricol button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
